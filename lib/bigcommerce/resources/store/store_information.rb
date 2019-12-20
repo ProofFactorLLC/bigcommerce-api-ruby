@@ -9,15 +9,21 @@ module Bigcommerce
     property :id
     property :logo
     property :name
+    property :first_name
+    property :last_name
     property :phone
     property :domain
     property :address
+    property :country
+    property :country_code
     property :currency
     property :features
     property :language
     property :timezone
     property :plan_name
     property :plan_level
+    property :plan_is_trial
+    property :logo
     property :secure_url
     property :admin_email
     property :order_email
